@@ -452,3 +452,133 @@ footer{
 }
 }
 
+@media all and (max-width: 769px){
+    header{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .logo{
+        margin: 30px auto 10px auto;
+    }
+
+    header ul{
+        width: 100%;
+    }
+
+    header li{
+        width: 100%;
+        text-align: center;
+    }
+
+    header ul a{
+        width: 100%;
+        display: inline-block;
+        padding: 23px 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    header ul a:hover{
+        border-top: none;
+        border-bottom: #0065FC solid 3px;
+    }
+
+    button span{
+        display: none;
+    }
+
+    .research_containt{
+        margin: 0 auto 40px auto;
+        width: 90%;
+    }
+
+    form{
+        margin: 30px 0;
+    }
+
+    button .fa-magnifying-glass{
+        display: block;
+        width: 100%;
+        color: #FFFFFF;
+        font-size: 1.063rem;
+    }
+    
+    .filter{
+        flex-wrap: wrap;
+    } 
+
+    .container_filtres{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .filtre_button{
+        width: 45%;
+        max-width: 215px;
+    }
+
+    .hebergements{
+        background-color: inherit;
+    }
+
+    .container_hebergements{
+        flex-direction: column-reverse;
+    }
+
+    .hebergements .card{
+        width: 100%;
+    }
+
+    .container_cards{
+        flex-direction: column;
+    }
+
+    .card{
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
+    .populars{
+        border-radius: 0;
+    }
+
+    .populars .container_cards{
+        flex-direction: column;
+    }
+
+    .populars .card{
+        width: 100%;
+    }
+
+    .activites{
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .container_activites_cards{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .activites_cards{
+        width: 100%;
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
