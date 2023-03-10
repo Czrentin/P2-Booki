@@ -419,3 +419,36 @@ footer{
         /* #endregion */
 
 
+@media all and (max-width: 993px){
+
+.container_hebergements{
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hebergements{
+    width: 100%;
+}
+
+.populars{
+    width: 100%;
+}
+
+.populars .container_cards{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.populars .card{
+    width: 32%;
+}
+
+.activites_cards img{
+    height: 211px;
+}
+
+.footer_container{
+    width: 90%;
+}
+}
+
