@@ -419,7 +419,7 @@ footer{
         /* #endregion */
 
 
-@media all and (max-width: 993px){
+@media all and (max-width: 1024px){
 
 .container_hebergements{
     flex-direction: column;
